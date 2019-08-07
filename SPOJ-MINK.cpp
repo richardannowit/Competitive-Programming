@@ -1,3 +1,4 @@
+////Kỹ thuật Deque Min max trên đoạn tịnh tiến
 #include<bits/stdc++.h>
 
 using namespace std;
