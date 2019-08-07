@@ -1,9 +1,10 @@
+//Kỹ thuật Deque Min max trên đoạn tịnh tiến
 #include<bits/stdc++.h>
 
 using namespace std;
 
 int main(){
-	freopen("input.txt","r",stdin);
+	//freopen("input.txt","r",stdin);
 	int t;
 	cin>>t;
 	while(t--){
