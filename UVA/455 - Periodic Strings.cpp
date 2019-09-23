@@ -1,3 +1,4 @@
+//KMP
 #include<bits/stdc++.h>
 #define MAXN 1000005
 
