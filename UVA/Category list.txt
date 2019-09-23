@@ -1,3 +1,4 @@
 - String KMP:
 	+ 455 - Periodic String
 	+ 10298 - Power Strings
+	+ 11362 - Phone List
