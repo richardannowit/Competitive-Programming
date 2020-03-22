@@ -4,9 +4,7 @@
 
 using namespace std;
 
-
-
-int p[N],r[N],noElementSet[N];
+int p[N],noElementSet[N];
 void init(int n){
     for(int i=0; i<n; i++){
         p[i] = i;
