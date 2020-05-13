@@ -1,7 +1,8 @@
 - String KMP:
-	+ 455 - Periodic String
-	+ 10298 - Power Strings
-	+ 11362 - Phone List
+    + 455 - Periodic String
+    + 10298 - Power Strings
+    + 11362 - Phone List
 - Disjoint Set:
-	+ 1197 - The Suspects
-	+ 11503 - Virtual Friends
+    + 1197 - The Suspects
+    + 11503 - Virtual Friends
+
