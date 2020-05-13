@@ -1,1 +1,1 @@
-This is all solution of Competitive programming contest I have solved.
+This is README and I don't know write whatever in here
