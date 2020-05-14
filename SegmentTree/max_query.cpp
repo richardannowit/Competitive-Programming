@@ -8,6 +8,7 @@ using namespace std;
 int t[4*MAX_N];
 
 void build(vi a, int v, int tl, int tr){
+    //if v is the leaf node (v is the index of tree)
     if(tl==tr){
         t[v] = a[tl];
         return;
@@ -18,8 +19,8 @@ void build(vi a, int v, int tl, int tr){
     t[v] = max(t[v*2],t[v*2+1]);
 }
 int max_query(int v, int tl, int tr, int l, int r){
-    if(l>r || l>tr || r<tl) return -1;
-    if(l<=tl && r>=tr) return t[v];
+    if(l>r || l>tr || r<tl) return -1; // if l and r outside of range (tl, tr)
+    if(l<=tl && r>=tr) return t[v]; // if tl and tr inside of (l, r)
     int tm = (tl+tr)/2;
     int maxl = max_query(v*2,tl,tm,l,r);
     int maxr = max_query(v*2+1, tm+1, tr, l, r);

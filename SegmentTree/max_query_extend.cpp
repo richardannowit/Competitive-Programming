@@ -1,3 +1,8 @@
+/* Author: Richard Annowit
+ * Name: Max Query Extend
+ * Time: 23:55
+ * Problem: Finding the maximum and the number of times it appears.
+ */
 #include<bits/stdc++.h>
 #define MAXN 100
 #define oo 1000
@@ -11,9 +16,13 @@
 
 using namespace std;
 
+/* Pair<int,int>
+ * First -> maximum element in range
+ * Second -> The number of times the First appear.
+ */
 pi t[4*MAXN];
 
-
+// Get max and add the number of occurrences of the maximum if 2 pair is the same max.
 pi combine(pi a, pi b){
     if(a.fi>b.fi)
         return a;
