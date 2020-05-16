@@ -1,5 +1,5 @@
 /**
- * File  : khoa.cpp
+ * File  : GCD.cpp
  * Author: Richard Annowit <richardannowit@gmail.com>
  * Date  : 16-05-2020 19:50:08
  */
