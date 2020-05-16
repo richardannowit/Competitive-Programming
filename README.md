@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-This is README and I don't know write whatever in here.
+Competitive Programming Solution 
 =======
-This is README and I don't know write whatever in here
->>>>>>> test1
+UVA, Codeforces, Hackerrank, Codecheft, ACM-ICPC,...
